@@ -1,6 +1,6 @@
 SELECT *
 FROM PortfolioProject..CovidDeaths$
-ORDER BY 3,4
+ORDER BY 3, 4
 
 -- select data that we are going to be using
 
@@ -137,3 +137,4 @@ JOIN PortfolioProject..CovidVaccinations$ vac
 	AND dea.date = vac.date
 
 WHERE dea.continent IS NOT NULL
+

@@ -135,4 +135,5 @@ FROM PortfolioProject..CovidDeaths$ dea
 JOIN PortfolioProject..CovidVaccinations$ vac
 	ON dea.location = vac.location
 	AND dea.date = vac.date
+
 WHERE dea.continent IS NOT NULL
